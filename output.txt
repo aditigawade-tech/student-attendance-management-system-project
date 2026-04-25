@@ -1,0 +1,40 @@
+PS C:\Users\Aditi\AppData\Local\Programs\Microsoft VS Code> & C:\Users\Aditi\AppData\Local\Programs\Python\Python314\python.exe c:/Users/Aditi/Documents/student1.py
+
+1. Add Student
+2. View Students
+3. Delete Student
+4. Exit
+Enter choice: 1
+Enter name: Aditi 
+Enter Roll no: 27
+Enter marks1: 88
+Enter marks2: 67
+Enter marks3: 76
+Enter marks4: 47
+Enter marks5: 78
+Enter marks6: 89
+Student added!
+
+1. Add Student
+2. View Students
+3. Delete Student
+4. Exit
+Enter choice: 2
+{'name': 'Aditi ', 'roll': '27', 'total': 445, 'percentage': 74.16666666666667, 'grade': 'B'}
+
+1. Add Student
+2. View Students
+3. Delete Student
+4. Exit
+Enter choice: 3
+Enter roll no to delete: 27
+Deleted
+
+1. Add Student
+2. View Students
+3. Delete Student
+4. Exit
+Enter choice: 4
+Exit
+PS C:\Users\Aditi\AppData\Local\Programs\Microsoft VS Code> & C:\Users\Aditi\AppData\Local\Programs\Python\Python314\python.exe c:/Users/Aditi/Documents/project.py^C               
+PS C:\Users\Aditi\AppData\Local\Programs\Microsoft VS Code> 
