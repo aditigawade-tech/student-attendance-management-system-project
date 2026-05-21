@@ -1,16 +1,17 @@
-````markdown id="0ecj7n"
-# 🎓 Student Result Management System
+````markdown id="8a0y5s"
+# Student Result Management System
 
-## 📌 Project Overview
+## Project Overview
 
-The **Student Result Management System** is a simple Python-based console application used to manage student academic records.  
+The **Student Result Management System** is a simple Python-based console application used to manage student academic records.
+
 This project allows users to:
 
-- ✅ Add student details
-- ✅ Calculate total marks and percentage
-- ✅ Assign grades automatically
-- ✅ View all student records
-- ✅ Delete student records using roll number
+- Add student details
+- Calculate total marks and percentage
+- Assign grades automatically
+- View all student records
+- Delete student records using roll number
 
 The project is created using basic Python concepts such as:
 
@@ -22,26 +23,26 @@ The project is created using basic Python concepts such as:
 
 ---
 
-# 🚀 Features
+# Features
 
-✅ Add Student Details  
-✅ Calculate Total Marks  
-✅ Calculate Percentage  
-✅ Automatic Grade Generation  
-✅ View All Student Records  
-✅ Delete Student Records  
-✅ Menu Driven Program  
-
----
-
-# 🛠️ Technologies Used
-
-- **Python 3**
-- **VS Code**
+- Add Student Details
+- Calculate Total Marks
+- Calculate Percentage
+- Automatic Grade Generation
+- View All Student Records
+- Delete Student Records
+- Menu Driven Program
 
 ---
 
-# 📂 Project Structure
+# Technologies Used
+
+- Python 3
+- VS Code
+
+---
+
+# Project Structure
 
 ```bash
 Student-Result-Management-System/
@@ -51,9 +52,9 @@ Student-Result-Management-System/
 
 ---
 
-# ⚙️ Steps to Create the Project
+# Steps to Create the Project
 
-## 1️⃣ Initialize an Empty List
+## 1. Initialize an Empty List
 
 A list named `students` is created to store all student records.
 
@@ -63,7 +64,7 @@ students = []
 
 ---
 
-## 2️⃣ Create Menu-Driven Program
+## 2. Create Menu-Driven Program
 
 A `while` loop is used to repeatedly display options to the user.
 
@@ -71,7 +72,8 @@ A `while` loop is used to repeatedly display options to the user.
 while True:
 ```
 
-### Menu Options:
+### Menu Options
+
 - Add Student
 - View Students
 - Delete Student
@@ -79,7 +81,7 @@ while True:
 
 ---
 
-## 3️⃣ Add Student Details
+## 3. Add Student Details
 
 The user enters:
 
@@ -94,7 +96,7 @@ rollno = input("Enter Roll no: ")
 
 ---
 
-## 4️⃣ Calculate Total and Percentage
+## 4. Calculate Total and Percentage
 
 ```python
 total = marks1 + marks2 + marks3 + marks4 + marks5 + marks6
@@ -103,7 +105,7 @@ percentage = total / 6
 
 ---
 
-## 5️⃣ Generate Grade Automatically
+## 5. Generate Grade Automatically
 
 ```python
 if percentage > 80:
@@ -116,7 +118,7 @@ else:
 
 ---
 
-## 6️⃣ Store Data Using Dictionary
+## 6. Store Data Using Dictionary
 
 ```python
 students.append({
@@ -130,7 +132,7 @@ students.append({
 
 ---
 
-## 7️⃣ View Student Records
+## 7. View Student Records
 
 All student details are displayed using a loop.
 
@@ -141,7 +143,7 @@ for s in students:
 
 ---
 
-## 8️⃣ Delete Student Record
+## 8. Delete Student Record
 
 Students can be deleted using roll number.
 
@@ -152,24 +154,28 @@ if s["roll"] == r:
 
 ---
 
-# ▶️ How to Run the Project in VS Code
+# How to Run the Project in VS Code
 
-## Step 1️⃣ Install Python
-Download and install **Python 3** on your system.
+## Step 1: Install Python
 
----
-
-## Step 2️⃣ Install VS Code
-Download and install **Visual Studio Code (VS Code)**.
+Download and install Python 3 on your system.
 
 ---
 
-## Step 3️⃣ Install Python Extension
-Open VS Code and install the **Python Extension** from the Extensions section.
+## Step 2: Install VS Code
+
+Download and install Visual Studio Code (VS Code).
 
 ---
 
-## Step 4️⃣ Create Project Folder
+## Step 3: Install Python Extension
+
+Open VS Code and install the Python Extension from the Extensions section.
+
+---
+
+## Step 4: Create Project Folder
+
 Create a folder named:
 
 ```bash
@@ -178,7 +184,8 @@ Student-Result-Management-System
 
 ---
 
-## Step 5️⃣ Create Python File
+## Step 5: Create Python File
+
 Inside the folder, create a file named:
 
 ```bash
@@ -189,7 +196,8 @@ Copy and paste the project code into this file.
 
 ---
 
-## Step 6️⃣ Open Folder in VS Code
+## Step 6: Open Folder in VS Code
+
 Open the project folder in VS Code using:
 
 ```bash
@@ -198,8 +206,9 @@ File → Open Folder
 
 ---
 
-## Step 7️⃣ Run the Program
-Click on the **Run ▶️** button in VS Code  
+## Step 7: Run the Program
+
+Click on the Run button in VS Code  
 or open terminal and run:
 
 ```bash
@@ -208,7 +217,8 @@ python student_result.py
 
 ---
 
-## Step 8️⃣ Use the Menu
+## Step 8: Use the Menu
+
 After running the program, the following menu will appear:
 
 ```bash
@@ -222,7 +232,7 @@ Enter the required option number to perform operations.
 
 ---
 
-# 📸 Sample Output
+# Sample Output
 
 ```bash
 1. Add Student
@@ -246,18 +256,31 @@ Student added!
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
-✅ Add File Handling for Permanent Data Storage  
-✅ Add Database Connectivity (MySQL)  
-✅ Create GUI using Tkinter  
-✅ Add Search Student Feature  
-✅ Add Update Student Details Option  
-✅ Generate Report Cards Automatically  
-✅ Add Login Authentication System  
-✅ Export Results to Excel/PDF  
+- Add File Handling for Permanent Data Storage
+- Add Database Connectivity (MySQL)
+- Create GUI using Tkinter
+- Add Search Student Feature
+- Add Update Student Details Option
+- Generate Report Cards Automatically
+- Add Login Authentication System
+- Export Results to Excel/PDF
+
+---
+
+# Learning Outcomes
+
+Through this project, I learned:
+
+- Python Basics
+- Lists and Dictionaries
+- Conditional Statements
+- Loops
+- CRUD Operations
+- Menu Driven Programs
+- Data Management in Python
 
 
-
-ndly Python application that helps understand how real-world student management systems work using core programming concepts.
 ````
+
